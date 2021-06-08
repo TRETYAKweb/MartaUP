@@ -288,8 +288,6 @@ a {
   margin-right: 20px;
 }
 
-.reviews__item-info {
-}
 .reviews__item-name {
   font-weight: 600;
 }
@@ -310,4 +308,16 @@ a {
   top: 0;
   left: 0;
   right: 0;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  color: #272727;
+  padding: 0 40px;
+}
+.footer__link a + a {
+  margin-left: 30px;
 }
